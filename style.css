@@ -1,20 +1,26 @@
-*{margin: 0; padding: 0;}
-body{background-color: black;}
-.container
-{
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
   width: 100%;
   height: 100%;
 }
-.trans
-{
+
+.trans {
   transition: all 1s ease;
   -moz-transition: all 1s ease;
   -ms-transition: all 1s ease;
   -o-transition: all 1s ease;
   -webkit-transition: all 1s ease;
 }
-.top
-{
+
+.top {
   display: flex;
   width: 80vw;
   height: 80vh;
@@ -23,16 +29,16 @@ body{background-color: black;}
   margin-right: auto;
   margin-bottom: 10vh;
 }
-.top ul
-{
+
+.top ul {
   list-style: none;
   width: 100%;
   height: 100%;
   z-index: 1;
   box-sizing: border-box;
 }
-.top ul li
-{
+
+.top ul li {
   position: relative;
   float: left;
   width: 25%;
@@ -40,8 +46,7 @@ body{background-color: black;}
   overflow: hidden;
 }
 
-.top ul li::before
-{
+.top ul li::before {
   position: absolute;
   top: 0;
   left: 0;
@@ -60,32 +65,32 @@ body{background-color: black;}
   -o-transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
 }
-.top ul li:hover::before
-{
+
+.top ul li:hover::before {
   opacity: 0;
-  background-color: rgba(0,0,0,0.90);
+  background-color: rgba(0, 0, 0, 0.90);
 }
-.top ul li img
-{
+
+.top ul li img {
   width: 100%;
   height: auto;
   overflow: hidden;
 }
-.lightbox
-{
+
+.lightbox {
   position: fixed;
   width: 100%;
   height: 100%;
   text-align: center;
   top: 0;
   left: 0;
-  background-color: rgba(0,0,0,0.75);
+  background-color: rgba(0, 0, 0, 0.75);
   z-index: 999;
   opacity: 0;
   pointer-events: none;
 }
-.lightbox img
-{
+
+.lightbox img {
   max-width: 90%;
   max-height: 80%;
   position: relative;
@@ -97,8 +102,8 @@ body{background-color: black;}
   -o-transition: all 1s ease;
   -webkit-transition: all 1s ease;
 }
-.lightbox:target
-{
+
+.lightbox:target {
   outline: none;
   top: 0;
   opacity: 1;
@@ -109,8 +114,8 @@ body{background-color: black;}
   -o-transition: all 1.2s ease;
   -webkit-transition: all 1.2s ease;
 }
-.lightbox:target img
-{
+
+.lightbox:target img {
   top: 0;
   top: 50%;
   transform: translateY(-50%);
@@ -119,12 +124,13 @@ body{background-color: black;}
   -o-transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
 }
+
 .photo_top {
 
   float: right;
   margin-right: 50px;
-  padding-bottom: 15px;  
-  
+  padding-bottom: 15px;
+
 }
 
 
@@ -135,7 +141,7 @@ body{background-color: black;}
   top: 10%;
   left: 30%;
   font-size: large;
-  
+
 
 }
 
@@ -145,13 +151,13 @@ body{background-color: black;}
   left: 23%;
   transform: translate(-50%, -50%);
   color: rgb(255, 230, 0);
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size:smaller;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: smaller;
   font-size: 11px;
   font-style: italic;
-text-shadow: black 0.1em 0.1em 0.2em;
-    font-weight: bold;
-    line-height: 2em;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  font-weight: bold;
+  line-height: 2em;
 }
 
 .texte_secretaire_kim {
@@ -160,13 +166,13 @@ text-shadow: black 0.1em 0.1em 0.2em;
   left: 35%;
   transform: translate(-50%, -50%);
   color: rgb(255, 230, 0);
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size:smaller;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: smaller;
   font-size: 11px;
   font-style: italic;
-text-shadow: black 0.1em 0.1em 0.2em;
-    font-weight: bold;
-    line-height: 2em;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  font-weight: bold;
+  line-height: 2em;
 }
 
 .texte_is_okay {
@@ -175,13 +181,13 @@ text-shadow: black 0.1em 0.1em 0.2em;
   left: 29%;
   transform: translate(-50%, -50%);
   color: rgb(255, 230, 0);
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size:smaller;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: smaller;
   font-size: 11px;
   font-style: italic;
-text-shadow: black 0.1em 0.1em 0.2em;
-    font-weight: bold;
-    line-height: 2em;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  font-weight: bold;
+  line-height: 2em;
 }
 
 .texte_strong_girl {
@@ -190,126 +196,132 @@ text-shadow: black 0.1em 0.1em 0.2em;
   left: 29%;
   transform: translate(-50%, -50%);
   color: rgb(255, 230, 0);
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size:smaller;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: smaller;
   font-size: 11px;
   font-style: italic;
-text-shadow: black 0.1em 0.1em 0.2em;
-    font-weight: bold;
-    line-height: 2em;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  font-weight: bold;
+  line-height: 2em;
 }
 
-.fa-film{
+.fa-film {
   color: white;
   color: #FF9100;
   font-size: 230%;
   float: right;
   margin-right: 80px;
-  padding-bottom: 15px; 
+  padding-bottom: 15px;
 }
 
-.fa-music{
+.fa-music {
   color: white;
   color: #FF9100;
   font-size: 230%;
   float: right;
   margin-right: 80px;
-  padding-bottom: 15px; 
+  padding-bottom: 15px;
 }
 
-.acteurs{
+.acteurs {
   position: absolute;
   top: 35%;
   left: 69%;
   display: flex;
 }
 
-.synopsis{
+.synopsis {
   position: absolute;
   left: 65%;
   right: 3%;
   top: 50%;
   line-height: 2em;
   color: white;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: italic;
   text-shadow: black 0.1em 0.1em 0.2em;
   font-weight: bold;
-  background-color:#E50914;
+  background-color: #E50914;
 }
 
 
-.music{
+.music {
   position: absolute;
   left: 75%;
   top: 69%;
 }
 
- button {
+button {
   display: flex;
   justify-content: space-around;
-  box-shadow:inset 0px 1px 0px 0px #fff6af;
-	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
-	background-color:#ffec64;
-	border-radius:42px;
-	cursor:pointer;
-	color: rgb(0, 0, 0);
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size:smaller;
-	font-weight:bold;
-	padding:6px 24px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #ffee66;
+  box-shadow: inset 0px 1px 0px 0px #fff6af;
+  background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+  background-color: #ffec64;
+  border-radius: 42px;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: smaller;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffee66;
 }
-button:hover {
-	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
-	background-color:#ffab23;
-  color: rgb(255, 255, 255);
-} 
 
- .bouton {
+button:hover {
+  background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+  background-color: #ffab23;
+  color: rgb(255, 255, 255);
+}
+
+.bouton {
   display: flex;
   justify-content: center;
   padding-top: 25px;
-} 
-
-
-@media screen and (max-width: 1750px)
-{
-
-  .texte_centrer
-    {
-        display: none;   
-    }
-
-    .texte_secretaire_kim
-    {
-      display: none;
-    }
-
-    .texte_is_okay
-    {
-      display: none;
-    }
-
-    .texte_strong_girl
-    {
-      display: none;
-    }
-
-    .synopsis{
-      display: none;
-    }
-
-    .acteurs{
-      display: none;
-    }
-
-    .music{
-      display: none;
-    }
 }
 
 
+@media screen and (max-width: 1750px) {
 
+  .texte_centrer {
+    display: none;
+  }
 
+  .texte_secretaire_kim {
+    display: none;
+  }
+
+  .texte_is_okay {
+    display: none;
+  }
+
+  .texte_strong_girl {
+    display: none;
+  }
+
+  .synopsis {
+    display: none;
+  }
+
+  .acteurs {
+    display: none;
+  }
+
+  .music {
+    display: none;
+  }
+}
+
+.texte_centrer:hover {
+
+  color: white;
+  /* opacity: 0; */
+}
+
+.texte_centrer {
+  display: none;
+}
+
+li:hover div{
+  display: block;
+}
